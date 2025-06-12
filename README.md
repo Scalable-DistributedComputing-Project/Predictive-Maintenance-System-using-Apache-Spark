@@ -48,7 +48,7 @@ The project is developed as part of a **Scalable-Distributed-Computing** course 
 ├── Predictive-Maintenance-System-using-Apache-Spark/
 ├── UI/
 └── xgb_model.joblib
-
+```
 ---
 
 

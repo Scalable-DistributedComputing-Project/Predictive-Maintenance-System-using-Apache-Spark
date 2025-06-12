@@ -49,14 +49,12 @@ The project is developed as part of a **Scalable-Distributed-Computing** course 
 ├── UI/
 └── xgb_model.joblib
 ```
----
-
 
 - `Predictive-Maintenance-System-using-Apache-Spark/`: Likely contains the core Spark applications and scripts.
 - `UI/`: Front-end code for the user interface.
 - `xgb_model.joblib`: A pre-trained XGBoost model.
 
-
+---
 
 ## Installation and Setup (High-Level)
 

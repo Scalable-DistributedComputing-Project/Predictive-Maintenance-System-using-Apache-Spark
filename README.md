@@ -48,3 +48,56 @@ The project is developed as part of a **Scalable-Distributed-Computing** course 
 ├── Predictive-Maintenance-System-using-Apache-Spark/
 ├── UI/
 └── xgb_model.joblib
+
+
+- `Predictive-Maintenance-System-using-Apache-Spark/`: Likely contains the core Spark applications and scripts.
+- `UI/`: Front-end code for the user interface.
+- `xgb_model.joblib`: A pre-trained XGBoost model.
+
+---
+
+## Installation and Setup (High-Level)
+
+To set up and run this project, you will generally need:
+
+- **Apache Spark**: A running Spark cluster (or local setup).
+- **Python Environment**: Python 3.x with necessary libraries such as:
+  - `pyspark`
+  - `pandas`
+  - `scikit-learn`
+  - `xgboost`
+  - `streamlit` (or other UI frameworks if used)
+
+  Detailed installation instructions for specific modules might be found within their respective directories.
+
+---
+
+## Usage
+
+1. **Prepare Data**  
+   Ensure your equipment sensor data and historical maintenance records are accessible.
+
+2. **Run Data Processing**  
+   Execute Spark jobs within the `Data Processing & Analysis/` directory to prepare data for modeling.
+
+3. **Train/Load Model**  
+   Utilize or retrain the predictive model, using:
+   - `xgb_model.joblib`, or  
+   - Scripts in the `Predictive-Maintenance-System-using-Apache-Spark/` directory.
+
+4. **Run Prediction & Alerting**  
+   Execute the prediction and alerting logic to identify potential failures.
+
+5. **Access UI**  
+   Launch the user interface to visualize results and interact with the system.
+
+Specific commands and detailed steps would typically be provided within individual module `README.md` or documentation files.
+
+---
+
+## Contributors
+
+- **Nguyen Quang Sang**
+- **Phan Manh Son**
+- **Bui Phuong Thanh**
+
